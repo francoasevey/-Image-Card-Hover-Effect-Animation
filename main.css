@@ -58,3 +58,18 @@ div:nth-child(5)::after{
     color: #fff;
     text-shadow: 3px 3px #555;
 }
+div:nth-child(1)::after{
+    content: "Rashi";
+}
+div:nth-child(2)::after{
+    content: "Mahi";
+}
+div:nth-child(3)::after{
+    content: "Diana";
+}
+div:nth-child(4)::after{
+    content: "Sarah";
+}
+div:nth-child(5)::after{
+    content: "Jumni";
+}
