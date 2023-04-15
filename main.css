@@ -21,3 +21,40 @@ div{
     transform: skewY(-10deg);
     z-index: -1;
 }
+div:nth-child(1){
+    background-image: url('img/1.png');
+}
+div:nth-child(2){
+    background-image: url('img/2.png');
+}
+div:nth-child(3){
+    background-image: url('img/3.png');
+}
+div:nth-child(4){
+    background-image: url('img/4.png');
+}
+div:nth-child(5){
+    background-image: url('img/5.png');
+}
+.hover{
+    filter: grayscale(0) opacity(1);
+    transform: scale(1.1);
+    box-shadow: 0 25px 50px black;
+    z-index: 8888;
+}
+div:nth-child(1)::after,
+div:nth-child(2)::after,
+div:nth-child(3)::after,
+div:nth-child(4)::after,
+div:nth-child(5)::after{
+    content: "Mahima";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px #555;
+}
