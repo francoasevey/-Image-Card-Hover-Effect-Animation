@@ -13,5 +13,17 @@
     <div class="hover"></div>
     <div></div>
     <div></div>
+
+    <script>
+        const divs = document.querySelectorAll("div");
+
+        divs.forEach(function(el){
+            el.addEventListener("mouseenter", function(){
+                let panel = document.querySelector('.hover');
+                panel.classList.toggle('hover');
+                el.classList.toggle('hover');
+            })
+        })
+    </script>
 </body>
 </html>
