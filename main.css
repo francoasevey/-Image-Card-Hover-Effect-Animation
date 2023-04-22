@@ -9,7 +9,7 @@ html{
 }
 div{
     width: 20vw;
-    max-width: 250px;
+    max-width: 245px;
     height: 75vh;
     background-size: auto 100%;
     background-position: 50% 50%;
@@ -20,21 +20,22 @@ div{
     transition: 0.5s;
     transform: skewY(-10deg);
     z-index: -1;
+    border-radius: 5%;
 }
 div:nth-child(1){
-    background-image: url('img/1.png');
+    background-image: url('images/1.jpg');
 }
 div:nth-child(2){
-    background-image: url('img/2.png');
+    background-image: url('images/2.jpg');
 }
 div:nth-child(3){
-    background-image: url('img/3.png');
+    background-image: url('images/3.jpg');
 }
 div:nth-child(4){
-    background-image: url('img/4.png');
+    background-image: url('images/4.jpg');
 }
 div:nth-child(5){
-    background-image: url('img/5.png');
+    background-image: url('images/5.jpg');
 }
 .hover{
     filter: grayscale(0) opacity(1);
